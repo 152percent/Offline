@@ -1,0 +1,6 @@
+framework module Offline {
+  umbrella header "Offline-umbrella.h"
+
+  export *
+  module * { export * }
+}
