@@ -1,6 +1,6 @@
 # Offline
 
-[![CI Status](http://img.shields.io/travis/Shaps Benkau/Offline.svg?style=flat)](https://travis-ci.org/Shaps Benkau/Offline)
+[![CI Status](http://img.shields.io/travis/shaps80/Offline.svg?style=flat)](https://travis-ci.org/shaps80/Offline)
 [![Version](https://img.shields.io/cocoapods/v/Offline.svg?style=flat)](http://cocoapods.org/pods/Offline)
 [![License](https://img.shields.io/cocoapods/l/Offline.svg?style=flat)](http://cocoapods.org/pods/Offline)
 [![Platform](https://img.shields.io/cocoapods/p/Offline.svg?style=flat)](http://cocoapods.org/pods/Offline)
