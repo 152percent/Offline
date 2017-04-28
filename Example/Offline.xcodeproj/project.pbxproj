@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		575A80777B113B73D7135773 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		575A80777B113B73D7135773 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Offline_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Offline_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,9 +40,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		733B9ACA4E1A53922B7A387B /* Pods-Offline_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Offline_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Offline_Example/Pods-Offline_Example.release.xcconfig"; sourceTree = "<group>"; };
-		785EEECAD1163A599D0F071C /* Offline.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Offline.podspec; path = ../Offline.podspec; sourceTree = "<group>"; };
+		785EEECAD1163A599D0F071C /* Offline.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Offline.podspec; path = ../Offline.podspec; sourceTree = "<group>"; };
 		79D641BB27B82D72A5D130C2 /* Pods-Offline_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Offline_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Offline_Example/Pods-Offline_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8A09133B1956712A90150D24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A09133B1956712A90150D24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8F137A7ED50FB76494E3D1E7 /* Pods-Offline_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Offline_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Offline_Tests/Pods-Offline_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6408D35AD4A9B7EC8A1BE05 /* Pods-Offline_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Offline_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Offline_Tests/Pods-Offline_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8DD8B68FECEB20A69869186 /* Pods_Offline_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Offline_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -523,10 +523,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F137A7ED50FB76494E3D1E7 /* Pods-Offline_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -543,10 +539,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6408D35AD4A9B7EC8A1BE05 /* Pods-Offline_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
