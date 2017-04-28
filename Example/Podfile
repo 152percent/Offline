@@ -1,12 +1,14 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
 use_frameworks!
 
 target 'Offline_Example' do
-  pod 'Offline', :path => '../'
-
-  target 'Offline_Tests' do
-    inherit! :search_paths
-
-    pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
-  end
+    pod 'Offline', :path => '../'
+    
+    target 'Offline_Tests' do
+        inherit! :search_paths
+        
+        pod 'Quick', '~> 1.0.0'
+        pod 'Nimble', '~> 5.1.1'
+    end
 end
